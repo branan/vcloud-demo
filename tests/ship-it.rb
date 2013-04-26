@@ -1,6 +1,6 @@
 test_name "vCloud demo"
 
 hosts.each do |host|
-  on host, "curl http://yo.puppetlabs.lan/ship-it.txt"
+  on host, "curl http://yo.delivery.puppetlabs.net/ship-it.txt"
 end
 
